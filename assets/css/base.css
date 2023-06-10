@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --content1-color: #ba71da;
+    --content3-color: #f76570;
+    --content4-color: #14b9d5;
+    --text-color1: #9a9a9a; 
+}
+
+.text-white {
+    color: #fff;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.padding-0-15 {
+    padding: 0 15px;
+}
+
+.padding-top-bot-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.padding-top-bot-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.h-64 {
+    height: 64px;
+}
+
+.h-55 {
+    height: 55px;
+}
+
+@keyframes changeBackground {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
